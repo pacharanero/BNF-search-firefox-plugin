@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>BNF</ShortName>
+<Description>British National Formulary Search</Description>
+<Contact>info@bawmedical.co.uk</Contact>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16" type="image/x-icon">http://www.bnf.org/bnf/favicon.ico</Image>
+<Url type="application/x-suggestions+json" method="GET"
+template="http://www.bnf.org/bnf/search.htm?q={searchTerms}" />
+<Url type="text/html" method="GET" template="http://www.bnf.org/bnf/search.htm?">
+  <Param name="q" value="{searchTerms}"/>
+</Url>
+<SearchForm>http://www.bnf.org/bnf/index.htm</SearchForm>
+</OpenSearchDescription>
